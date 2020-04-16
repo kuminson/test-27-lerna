@@ -1,0 +1,29 @@
+{
+  "name": "fxmodule",
+  "version": "0.0.1",
+  "description": "test lerna",
+  "author": "kuminson",
+  "homepage": "https://github.com/kuminson/test-27-lerna#readme",
+  "license": "ISC",
+  "main": "lib/fxModule.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuminson/test-27-lerna.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/kuminson/test-27-lerna/issues"
+  },
+  "dependencies": {
+    "fxtool": "^0.0.2"
+  }
+}
