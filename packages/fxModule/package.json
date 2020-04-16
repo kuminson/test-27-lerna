@@ -20,11 +20,14 @@
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "bugs": {
     "url": "https://github.com/kuminson/test-27-lerna/issues"
   },
   "dependencies": {
     "fxtool": "^0.0.3"
   },
-  "gitHead": "c3fde6dc0fda361458d075c1830bba8ce91ba007"
+  "gitHead": "66af53f8fdadaab786d76b8944a64654a1d9b713"
 }
