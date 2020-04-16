@@ -1,6 +1,6 @@
 {
   "name": "@kuminson/fxmodule",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "test lerna",
   "author": "kuminson",
   "homepage": "https://github.com/kuminson/test-27-lerna#readme",
@@ -27,7 +27,7 @@
     "url": "https://github.com/kuminson/test-27-lerna/issues"
   },
   "dependencies": {
-    "fxtool": "^0.0.3"
+    "fxtool": "^0.0.4"
   },
   "gitHead": "66af53f8fdadaab786d76b8944a64654a1d9b713"
 }
