@@ -5,19 +5,20 @@
   "author": "kuminson",
   "homepage": "https://github.com/kuminson/test-27-lerna#readme",
   "license": "ISC",
-  "main": "lib/fxModule.js",
+  "main": "src/fxModule.js",
   "directories": {
-    "lib": "lib",
+    "src": "src",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "src"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/kuminson/test-27-lerna.git"
   },
   "scripts": {
+    "build": "webpack --config webpack.config.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "publishConfig": {
@@ -29,5 +30,9 @@
   "dependencies": {
     "fxtool": "^0.0.4"
   },
-  "gitHead": "66af53f8fdadaab786d76b8944a64654a1d9b713"
+  "gitHead": "66af53f8fdadaab786d76b8944a64654a1d9b713",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
